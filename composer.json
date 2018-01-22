@@ -1,0 +1,25 @@
+{
+  "name": "Store/ushop-mvc",
+  "description": "description_text",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "retailcrm/api-client-php": "~5.1",
+    "sendpulse/rest-api": "~1",
+    "bit55/litero": "^0.9.0",
+    "ucoz/uapi-client": "dev-master"
+  },
+  "config": {
+    "optimize-autoloader": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\Store\\": "app/"
+    }
+  }
+}
